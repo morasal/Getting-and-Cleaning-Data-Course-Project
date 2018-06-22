@@ -1,6 +1,6 @@
 # Codebook for tidy.txt
 
-activity
+1. activity
   
   Activity identifier, string with 6 possible values:
     
@@ -11,206 +11,272 @@ activity
     STANDING: subject was standing
     LAYING: subject was laying
     
-subject.id
+2. subject.id
   
   Subject identifier, integer, ranges from 1 to 30.
   
-timeBodyAcc.mean.X
+3. timeBodyAcc.mean.X
+  
   Average time-domain body acceleration in the X direction
   
-timeBodyAcc.mean.Y
+4. timeBodyAcc.mean.Y
+  
   Average time-domain body acceleration in the Y direction
   
-timeBodyAcc.mean.Z
+5. timeBodyAcc.mean.Z
+  
   Average time-domain body acceleration in the Z direction
   
-timeBodyAcc.std.X
+6. timeBodyAcc.std.X
+  
   Standrad deviation of the time-domain body acceleration in the X direction
   
-timeBodyAcc.std.Y
+7. timeBodyAcc.std.Y
+  
   Standrad deviation of the time-domain body acceleration in the Y direction
   
-timeBodyAcc.std.Z
+8. timeBodyAcc.std.Z
+  
   Standrad deviation of the time-domain body acceleration in the Z direction
   
-timeGravityAcc.mean.X
+9. timeGravityAcc.mean.X
+  
   Average time-domain gravity acceleration in the X direction
   
-timeGravityAcc.mean.Y
+10. timeGravityAcc.mean.Y
+  
   Average time-domain gravity acceleration in the Y direction
   
-timeGravityAcc.mean.Z
+11. timeGravityAcc.mean.Z
+  
   Average time-domain gravity acceleration in the Z direction
   
-timeGravityAcc.std.X
+12. timeGravityAcc.std.X
+  
   Standrad deviation of the time-domain gravity acceleration in the X direction
   
-timeGravityAcc.std.Y
+13. timeGravityAcc.std.Y
+  
   Standrad deviation of the time-domain gravity acceleration in the Y direction
   
-timeGravityAcc.std.Z
+14. timeGravityAcc.std.Z
+  
   Standrad deviation of the time-domain gravity acceleration in the Z direction
   
-timeBodyAccJerk.mean.X
+15. timeBodyAccJerk.mean.X
+  
   Average time-domain body acceleration jerk in the X direction
   
-timeBodyAccJerk.mean.Y
+16. timeBodyAccJerk.mean.Y
+  
   Average time-domain body acceleration jerk in the Y direction
   
-timeBodyAccJerk.mean.Z
+17. timeBodyAccJerk.mean.Z
+  
   Average time-domain body acceleration jerk in the Z direction
   
-timeBodyAccJerk.std.X
+18. timeBodyAccJerk.std.X
+  
   Standrad deviation of the time-domain body acceleration jerk in the X direction
   
-timeBodyAccJerk.std.Y
+19. timeBodyAccJerk.std.Y
+  
   Standrad deviation of the time-domain body acceleration jerk in the Y direction
   
-timeBodyAccJerk.std.Z
+20. timeBodyAccJerk.std.Z
+  
   Standrad deviation of the time-domain body acceleration jerk in the Z direction
   
-timeBodyGyro.mean.X
+21. timeBodyGyro.mean.X
+  
   Average time-domain body angular velocity in the X direction
   
-timeBodyGyro.mean.Y
+22. timeBodyGyro.mean.Y
+  
   Average time-domain body angular velocity in the Y direction
   
-timeBodyGyro.mean.Z
+23. timeBodyGyro.mean.Z
+  
   Average time-domain body angular velocity in the Z direction
   
-timeBodyGyro.std.X
+24. timeBodyGyro.std.X
+  
   Standrad deviation of the time-domain body angular velocity in the X direction
   
-timeBodyGyro.std.Y
+25. timeBodyGyro.std.Y
+  
   Standrad deviation of the time-domain body angular velocity in the Y direction
   
-timeBodyGyro.std.Z
+26. timeBodyGyro.std.Z
+  
   Standrad deviation of the time-domain body angular velocity in the Z direction
   
-timeBodyGyroJerk.mean.X
+27. timeBodyGyroJerk.mean.X
+  
   Average time-domain body angular velocity jerk in the X direction
   
-timeBodyGyroJerk.mean.Y
+28. timeBodyGyroJerk.mean.Y
+  
   Average time-domain body angular velocity jerk in the Y direction
   
-timeBodyGyroJerk.mean.Z
+29. timeBodyGyroJerk.mean.Z
+  
   Average time-domain body angular velocity jerk in the Z direction
   
-timeBodyGyroJerk.std.X
+30. timeBodyGyroJerk.std.X
+  
   Standrad deviation of the time-domain body angular velocity jerk in the X direction
   
-timeBodyGyroJerk.std.Y
+31. timeBodyGyroJerk.std.Y
+  
   Standrad deviation of the time-domain body angular velocity jerk in the Y direction
   
-timeBodyGyroJerk.std.Z
+32. timeBodyGyroJerk.std.Z
+  
   Standrad deviation of the time-domain body angular velocity jerk in the Z direction
   
-timeBodyAccMag.mean
+33. timeBodyAccMag.mean
+  
   Average time-domain magnitude of body acceleration
   
-timeBodyAccMag.std
+34. timeBodyAccMag.std
+  
   Standrad deviation of the time-domain magnitude of body acceleration
   
-timeGravityAccMag.mean
+35. timeGravityAccMag.mean
+  
   Average time-domain magnitude of gravity acceleration
   
-timeGravityAccMag.std
+36. timeGravityAccMag.std
+  
   Standrad deviation of the time-domain magnitude of gravity acceleration
   
-timeBodyAccJerkMag.mean
+37. timeBodyAccJerkMag.mean
+  
   Average time-domain magnitude of body acceleration jerk
   
-timeBodyAccJerkMag.std
+38. timeBodyAccJerkMag.std
+  
   Standrad deviation of the time-domain magnitude of body acceleration jerk
   
-timeBodyGyroMag.mean
+39. timeBodyGyroMag.mean
+  
   Average time-domain magnitude of body angular velocity
   
-timeBodyGyroMag.std
+40. timeBodyGyroMag.std
+  
   Standrad deviation of the time-domain magnitude of body angular velocity
   
-timeBodyGyroJerkMag.mean
+41. timeBodyGyroJerkMag.mean
+  
   Average time-domain magnitude of body angular velocity jerk
   
-timeBodyGyroJerkMag.std
+42. timeBodyGyroJerkMag.std
+  
   Standrad deviation of the time-domain magnitude of body angular velocity jerk
   
-freqBodyAcc.mean.X
+43. freqBodyAcc.mean.X
+  
   Average frequency-domain body acceleration in the X direction
   
-freqBodyAcc.mean.Y
+44. freqBodyAcc.mean.Y
+  
   Average frequency-domain body acceleration in the Y direction
   
-freqBodyAcc.mean.Z
+45. freqBodyAcc.mean.Z
+  
   Average frequency-domain body acceleration in the Z direction
   
-freqBodyAcc.std.X
+46. freqBodyAcc.std.X
+  
   Standrad deviation of the frequency-domain body acceleration in the X direction
   
-freqBodyAcc.std.Y
+47. freqBodyAcc.std.Y
+  
   Standrad deviation of the frequency-domain body acceleration in the Y direction
   
-freqBodyAcc.std.Z
+48. freqBodyAcc.std.Z
+  
   Standrad deviation of the frequency-domain body acceleration in the Z direction
   
-freqBodyAccJerk.mean.X
+49. freqBodyAccJerk.mean.X
+  
   Average frequency-domain body acceleration in the X direction
   
-freqBodyAccJerk.mean.Y
+50. freqBodyAccJerk.mean.Y
+  
   Average frequency-domain body acceleration in the Y direction
   
-freqBodyAccJerk.mean.Z
+51. freqBodyAccJerk.mean.Z
+  
   Average frequency-domain body acceleration in the Z direction
   
-freqBodyAccJerk.std.X
+52. freqBodyAccJerk.std.X
+  
   Standrad deviation of the frequency-domain body acceleration in the X direction
   
-freqBodyAccJerk.std.Y
+53. freqBodyAccJerk.std.Y
+  
   Standrad deviation of the frequency-domain body acceleration in the Y direction
   
-freqBodyAccJerk.std.Z
+54. freqBodyAccJerk.std.Z
+  
   Standrad deviation of the frequency-domain body acceleration in the Z direction
   
-freqBodyGyro.mean.X
+55. freqBodyGyro.mean.X
+  
   Average frequency-domain body angular velocity in the X direction
   
-freqBodyGyro.mean.Y
+56. freqBodyGyro.mean.Y
+  
   Average frequency-domain body angular velocity in the Y direction
   
-freqBodyGyro.mean.Z
+57. freqBodyGyro.mean.Z
+  
   Average frequency-domain body angular velocity in the Z direction
   
-freqBodyGyro.std.X
+58. freqBodyGyro.std.X
+  
   Standrad deviation of the frequency-domain body angular velocity in the X direction
   
-freqBodyGyro.std.Y
+59. freqBodyGyro.std.Y
+  
   Standrad deviation of the frequency-domain body angular velocity in the Y direction
   
-freqBodyGyro.std.Z
+60. freqBodyGyro.std.Z
+  
   Standrad deviation of the frequency-domain body angular velocity in the Z direction
   
-freqBodyAccMag.mean
+61. freqBodyAccMag.mean
+  
   Average frequency-domain magnitude of body acceleration
   
-freqBodyAccMag.std
+62. freqBodyAccMag.std
+  
   Standrad deviation of the frequency-domain magnitude of body acceleration
   
-freqBodyBodyAccJerkMag.mean
+63. freqBodyBodyAccJerkMag.mean
+  
   Average frequency-domain magnitude of body acceleration jerk
   
-freqBodyBodyAccJerkMag.std
+64. freqBodyBodyAccJerkMag.std
+  
   Standrad deviation of the frequency-domain magnitude of body acceleration jerk
   
-freqBodyBodyGyroMag.mean
+65. freqBodyBodyGyroMag.mean
+  
   Average frequency-domain magnitude of body angular velocity jerk
   
-freqBodyBodyGyroMag.std
+66. freqBodyBodyGyroMag.std
+  
   Standrad deviation of the frequency-domain magnitude of body angular velocity jerk
   
-freqBodyBodyGyroJerkMag.mean
+67. freqBodyBodyGyroJerkMag.mean
+  
   Average frequency-domain magnitude of body angular velocity jerk
   
-freqBodyBodyGyroJerkMag.std
+68. freqBodyBodyGyroJerkMag.std
+  
   Standrad deviation of the frequency-domain magnitude of body angular velocity jerk
   
   
