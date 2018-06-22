@@ -1,7 +1,9 @@
 # Codebook for tidy.txt
 
 activity
+  
   Activity identifier, string with 6 possible values:
+    
     WALKING: subject was walking
     WALKING_UPSTAIRS: subject was walking upstairs
     WALKING_DOWNSTAIRS: subject was walking downstairs
@@ -10,6 +12,7 @@ activity
     LAYING: subject was laying
     
 subject.id
+  
   Subject identifier, integer, ranges from 1 to 30.
   
 timeBodyAcc.mean.X
